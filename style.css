@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+header {
+    background-color: mediumseagreen;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+hr {
+    width: 70%;
+    border: none;
+    border-top: 4px dotted hotpink;
+    margin: 30px auto;
+}
+
+.garden {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.flower {
+    width: 220px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50% 50% 20px 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.emoji {
+    font-size: 75px;
+}
+
+.flower h2 {
+    color: deeppink;
+}
+
+.flower p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+span {
+    color: royalblue;
+    font-weight: bold;
+}
+
+button {
+    margin: 25px;
+    padding: 13px 28px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+footer {
+    background-color: forestgreen;
+    color: white;
+    padding: 15px;
+}
